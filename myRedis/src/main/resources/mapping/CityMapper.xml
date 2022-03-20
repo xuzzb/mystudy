@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dcits.mapper.CityMapper" >
+    <resultMap id="BaseResultMap" type="com.dcits.entity.City" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+        <result column="CountyrCode" property="countryCode" jdbcType="VARCHAR" />
+        <result column="District" property="district" jdbcType="VARCHAR" />
+        <result column="Population" property="population" jdbcType="INTEGER" />
+    </resultMap>
+    <select id="getCityInfo" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+        select
+         *
+        from city
+        where id = #{id,jdbcType=INTEGER}
+    </select>
+
+
+    <insert id="insertCityInfo" parameterType="com.dcits.entity.City" >
+    insert into city (ID, Name, CountryCode,District,Population )
+        values (#{id,jdbcType=INTEGER},
+                #{name,jdbcType=VARCHAR},
+                #{countryCode,jdbcType=VARCHAR},
+                #{district,jdbcType=VARCHAR},
+                #{population,jdbcType=INTEGER}
+      )
+  </insert>
+
+
+    <update id="updateCityInfo" parameterType="com.dcits.entity.City" >
+        update city set name = #{name,jdbcType=VARCHAR}
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+
+</mapper>

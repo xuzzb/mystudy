@@ -18,21 +18,21 @@ import javax.annotation.Resource;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class TestRedisString {
-
-    @Resource
-    public RedisString redisString;
-
-    @Test
-    public void testSet(){
-        System.out.println("ssssssssssss");
-        redisString.setKey("ssssss","sssss");
-    }
-    @Test
-    public void testGetValue(){
-        String key = "me";
-        log.debug("开始从redis获取value值key为"+key);
-         String value =  redisString.getValue(key);
-        log.debug(value);
-    }
+//
+//    @Resource
+//    public RedisString redisString;
+//
+//    @Test
+//    public void testSet(){
+//        System.out.println("ssssssssssss");
+//        redisString.setKey("ssssss","sssss");
+//    }
+//    @Test
+//    public void testGetValue(){
+//        String key = "me";
+//        log.debug("开始从redis获取value值key为"+key);
+//         String value =  redisString.getValue(key);
+//        log.debug(value);
+//    }
 
 }
