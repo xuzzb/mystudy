@@ -129,6 +129,7 @@ public class ProductService {
                 redisUtil.expire(productCacheKey, genEmptyCacheTimeout(), TimeUnit.SECONDS);
                 return new Product();
             }
+
             product = JSON.parseObject(productStr, Product.class);
             //缓存读延期
             redisUtil.expire(productCacheKey, genProductCacheTimeout(), TimeUnit.SECONDS);

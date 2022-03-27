@@ -5,6 +5,8 @@ import com.dcits.mapper.CityMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.redisson.Redisson;
+import org.redisson.api.RBloomFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -21,6 +23,8 @@ import javax.annotation.Resource;
 public class TestSQL {
     @Resource
     private CityMapper cityMapper;
+    @Resource
+    private Redisson redisson;
     @Test
     public void insertCityInfo(){
         City city = new City();
@@ -48,5 +52,15 @@ public class TestSQL {
         city.setPopulation(10000000);
         city.setCountryCode("NNA");
         cityMapper.updateCityInfo(city);
+    }
+    @Test
+    public void booleanFilter(){
+        RBloomFilter<String> bloomFilter = redisson.getBloomFilter("nameList");
+        bloomFilter.tryInit(10000000L,0.02);
+        bloomFilter.add("zhuge");
+        bloomFilter.add("zhangsan");
+        System.out.println(bloomFilter.contains("zhuge"));
+        System.out.println(bloomFilter.contains("zhangsan"));
+        System.out.println(bloomFilter.contains("dddd"));
     }
 }
