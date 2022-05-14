@@ -4,23 +4,115 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d6d6ea4-6dc9-4032-9b7c-a2ea66b1088d" name="Default Changelist" comment="" />
+    <list default="true" id="4d6d6ea4-6dc9-4032-9b7c-a2ea66b1088d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myMongo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myRedis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcits/APP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcits/AppStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dcits/AppStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcits/contrller/MongoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dcits/contrller/MongoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcits/entity/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dcits/entity/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcits/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dcits/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcits/mapper/CityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dcits/mapper/CityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcits/mongo/MongoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dcits/mongo/MongoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcits/mongo/impl/MongoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dcits/mongo/impl/MongoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myRedis/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myRedis/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myRedis/src/main/java/com/dcits/controller/CityInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myRedis/src/main/java/com/dcits/controller/CityInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myRedis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../myRedis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myRedis/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../myRedis/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myRedisCluster/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myRedisCluster/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myRedisCluster/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../myRedisCluster/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="27drps2Eih1tbwkA8edhjTMwfno" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/dcits/mongo" />
+    <property name="last_opened_file_path" value="H:/tulin/tlmall" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\getTreeSSH\myMongo\src\main\java\com\dcists" />
+      <recent name="G:\getTreeSSH\myMongo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AppStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="myMongo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dcits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dcits.AppStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AppStart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,8 +121,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649660991374</updated>
-      <workItem from="1649660993164" duration="1000" />
+      <workItem from="1649660993164" duration="184000" />
+      <workItem from="1649731523755" duration="5287000" />
+      <workItem from="1649818143158" duration="2654000" />
+      <workItem from="1650115109802" duration="1753000" />
+      <workItem from="1650160792939" duration="1859000" />
+      <workItem from="1650296265678" duration="593000" />
+      <workItem from="1650371809279" duration="2670000" />
+      <workItem from="1650374786324" duration="4289000" />
+      <workItem from="1650456652606" duration="2880000" />
+      <workItem from="1650638123091" duration="519000" />
+      <workItem from="1650723922567" duration="1018000" />
+      <workItem from="1650769245138" duration="594000" />
+      <workItem from="1652016729866" duration="42000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

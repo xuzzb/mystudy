@@ -1,4 +1,4 @@
-package com.dcist.entity;
+package com.dcits.entity;
 
 /**
  * @Author xuzzb

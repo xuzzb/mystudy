@@ -46,6 +46,7 @@ public class CityInfoController {
     @RequestMapping("/getCityInfo")
     public City getCityInfo(String cityId){
         City city = null;
+        System.out.println("sssssssssssssssssssssssss");
         Long startTime = System.currentTimeMillis() ;
         for (int i=100;i<3000;i++) {
             city = cityService.getCityIndo(i);

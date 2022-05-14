@@ -1,4 +1,4 @@
-package com.dcist;
+package com.dcits;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
