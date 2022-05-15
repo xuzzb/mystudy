@@ -1,6 +1,5 @@
 package com.dcits.mapper;
 
-import com.dcits.entity.City;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -9,6 +8,7 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface CityMapper {
+
     public void insertCityInfo(City city);
     public City getCityInfo(Integer id);
     public void updateCityInfo(City city);

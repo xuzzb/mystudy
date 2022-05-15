@@ -1,8 +1,10 @@
-package com.dcits.entity;
+package com.dcits.mybatis.entity;
+
+import lombok.Data;
 
 /**
  * @Author xuzzb
- * @Create 2022/3/17
+ * @Create 2022/5/14
  */
 public class City {
     private Integer id;//城市ID
@@ -60,12 +62,5 @@ public class City {
                 ", district='" + district + '\'' +
                 ", population=" + population +
                 '}';
-    }
-
-    /**
-     * @Author xuzzb
-     * @Create 2022/5/14
-     */
-    public static class City {
     }
 }

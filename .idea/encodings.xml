@@ -3,5 +3,10 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/myMongo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myMongo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myRedis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myRedis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myRedisCluster/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myRedisCluster/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus/src/main/java" charset="UTF-8" />
   </component>
 </project>

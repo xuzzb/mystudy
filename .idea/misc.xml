@@ -4,6 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/myMongo/pom.xml" />
+        <option value="$PROJECT_DIR$/myRedis/pom.xml" />
+        <option value="$PROJECT_DIR$/myRedisCluster/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus/pom.xml" />
       </list>
     </option>
   </component>
