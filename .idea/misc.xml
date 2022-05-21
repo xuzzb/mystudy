@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/myRedis/pom.xml" />
         <option value="$PROJECT_DIR$/myRedisCluster/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-plus/pom.xml" />
+        <option value="$PROJECT_DIR$/lmada/pom.xml" />
+        <option value="$PROJECT_DIR$/mysharding/pom.xml" />
+        <option value="$PROJECT_DIR$/testSharding/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,5 +1,6 @@
 package com.dcits.mapper;
 
+import com.dcits.entity.City;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

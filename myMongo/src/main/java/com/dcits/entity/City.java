@@ -62,10 +62,5 @@ public class City {
                 '}';
     }
 
-    /**
-     * @Author xuzzb
-     * @Create 2022/5/14
-     */
-    public static class City {
-    }
+
 }

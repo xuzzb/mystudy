@@ -3,10 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/getTreeSSH.iml" filepath="$PROJECT_DIR$/.idea/getTreeSSH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lmada/lmada.iml" filepath="$PROJECT_DIR$/lmada/lmada.iml" />
       <module fileurl="file://$PROJECT_DIR$/myMongo/myMongo.iml" filepath="$PROJECT_DIR$/myMongo/myMongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/myRedis/myRedis.iml" filepath="$PROJECT_DIR$/myRedis/myRedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/myRedisCluster/myRedis (1).iml" filepath="$PROJECT_DIR$/myRedisCluster/myRedis (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-plus/mybatis-plus.iml" filepath="$PROJECT_DIR$/mybatis-plus/mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysharding/mysharding.iml" filepath="$PROJECT_DIR$/mysharding/mysharding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testSharding/testSharding.iml" filepath="$PROJECT_DIR$/testSharding/testSharding.iml" />
     </modules>
   </component>
 </project>

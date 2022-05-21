@@ -1,7 +1,10 @@
 package com.dcits.mybatis.plus;
 
 import com.dcits.mybatis.entity.City;
+import com.dcits.mybatis.entity.CityInfo;
 import com.dcits.mybatis.service.CityService;
+import com.fasterxml.jackson.databind.util.JSONPObject;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,9 +19,12 @@ public class CityController {
     @Autowired
     private CityService cityService;
     @RequestMapping("/getCityInfoById")
-    public String getCityInfoById(){
+    public CityInfo getCityInfoById(){
+        CityInfo cityInfo = new CityInfo();
         City city =cityService.getCityInfoByCityId();
-        return city.toString();
+        BeanUtils.copyProperties(city,cityInfo);
+        System.out.println(cityInfo);
+        return cityInfo;
     }
     @RequestMapping("/getCityInfo")
     public String getCityInfo(){

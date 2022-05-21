@@ -13,6 +13,8 @@ public class City {
     private String district;//
     private Integer population;//城市人口
 
+
+
     public void setId(Integer id) {
         this.id = id;
     }
@@ -53,14 +55,4 @@ public class City {
         return population;
     }
 
-    @Override
-    public String toString() {
-        return "City{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", countryCode='" + countryCode + '\'' +
-                ", district='" + district + '\'' +
-                ", population=" + population +
-                '}';
-    }
 }

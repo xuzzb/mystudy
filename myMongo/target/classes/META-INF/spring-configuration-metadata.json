@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "secure.ignored",
+      "type": "com.dcits.contrller.MongoController",
+      "sourceType": "com.dcits.contrller.MongoController"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
